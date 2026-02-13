@@ -41,11 +41,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     reveals.forEach(reveal => observer.observe(reveal));
 
-    // Profile image fallback
-    document.getElementById('profile-img').onerror = function() {
-        this.style.display = 'none';
-    };
-
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {

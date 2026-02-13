@@ -517,10 +517,7 @@ h2::after {
         gap: 1.5rem;
     }
 
-    .hero-profile {
-        width: 140px;
-        height: 140px;
-    }
+
 
     .hero-tagline {
         font-size: clamp(1.8rem, 8vw, 2.8rem);
